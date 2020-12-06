@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>webPage</title>
+<title>ติดต่อ</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -68,7 +68,7 @@ section:after {
 
 
 <header>
-  <h2>Welcom to My Website</h2>
+  <h2>Contact</h2>
 </header>
 
 <section>
@@ -81,15 +81,19 @@ section:after {
   </nav>
   
   <article>
-    <p>ชื่อ : พงศธร น้อยนาช</p>
-    <p>ชื่อเล่น : ปั่น</p>
-    <p>ว/ด/ป : 31 พฤษภาคม 2543</p>
-    <p>Tel. : 087-312-9579</p>
-    <p>จบการศึกษา</p>
-      <li>ประถมศึกษา : โรงเรียนไตรราษฎร์อุปถัมภ์</li>
-      <li>มัธยมศึกษา : โรงเรียนนครสวรรค์</li>
-    <p>งานอดิเรก : เล่นเกม,อ่านหนังสือ</p>
-    <p>ภาพยนตร์ที่ชอบ : life of pi, bat man the dark knight,</p>
+
+    <form action="/action_page.php">
+      <label for="lname">ชื่อ:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br><br>
+      <label for="lname">นามสกุล:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br><br>
+      <label for="lname">เบอร์โทรศัพท์:</label><br>
+      <input type="text" id="tel" name="tel" value=""><br><br>
+      <label for="lname">e-mail:</label><br>
+      <input type="text" id="email" name="email" value=""><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+    
   </article>
 </section>
 

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>รูป</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>My favorite pictures</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Asus/Desktop/%E0%B8%87%E0%B8%B2%E0%B8%99/Html/lab-01-GraPhong/webPage.html#">ประวัติส่วนตัว</a></li>
+      <li><a href="file:///C:/Users/Asus/Desktop/%E0%B8%87%E0%B8%B2%E0%B8%99/Html/lab-01-GraPhong/%E0%B8%A3%E0%B8%B9%E0%B8%9B.html">แกลลอรี</a></li>
+      <li><a href="file:///C:/Users/Asus/Desktop/%E0%B8%87%E0%B8%B2%E0%B8%99/Html/lab-01-GraPhong/%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD.html">ติดต่อ</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      </style>
+      </head>
+      <body>
+      
+      <div class="row">
+        <div class="column">
+          <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\sadDog.jpg" alt="sadDog" style="width:100%">
+          <figure>
+          <figcaption>เลาโอเคเว้ย</figcaption>
+        </figure>
+        </div>
+        <div class="column">
+          <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\dog.jpg" alt="dog" style="width:100%">
+          <figure>
+            <figcaption>อื้ม อาหร่อยยยย</figcaption>
+          </figure>
+        </div>
+        <div class="column">
+          <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\mickey.png" alt="mickey" style="width:100%">
+          <figure>
+            <figcaption>มิ้กกี้หมา</figcaption>
+          </figure>
+        </div>
+      </div>
+
+
+
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="row">
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\democracy.jpg" alt="democracy" style="width:100%">
+            <figure>
+              <figcaption>ใจเกเร</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\smile.jpg" alt="smile" style="width:100%">
+            <figure>
+              <figcaption>ยิ้มกระชากใจ</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\toilet.jpg" alt="toilet" style="width:100%">
+            <figure>
+              <figcaption>เผชิญหน้า</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\smell.jpg" alt="smell" style="width:100%">
+            <figure>
+              <figcaption>ชื่นจายยยยย</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\strong.jpg" alt="strong" style="width:100%">
+            <figure>
+              <figcaption>แข็งแกร่ง!!</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <img src="C:\Users\Asus\Desktop\งาน\Html\lab-01-GraPhong\รูปภาพ\love.jpg" alt="love" style="width:100%">
+            <figure>
+              <figcaption>ชอบนะคะ</figcaption>
+            </figure>
+          </div>
+        </div>
+  </article>
+</section>
+
+
+
+</body>
+</html>
